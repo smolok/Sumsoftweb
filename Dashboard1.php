@@ -1,0 +1,131 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+ <body>
+  <div class="container_top"> 
+    <span><a href="#1"><img src="telikom-logo.png" alt="telikom logo"></a></span>
+	<span><a href="#2">UserName</a></span>
+	<span><a href="#3">My Team</a></span>
+	<span><a href="#4">Documentation</a></span>
+	<span><a href="#5">Sign out</a></span>
+
+  </div>
+  <div class="container"> 
+    <div class="dropdown">
+	<span><button class="dropbtn">Tracking </button></span>
+	<div class="dropdown-content">
+    <a href="#">Location</a>
+	</div>
+	</div>
+
+	<div class="dropdown">
+	<span><button class="dropbtn">Dashboards </button></span>
+	<div class="dropdown-content">
+    <a href="#">NOC Dashborad</a>
+	<a href="#">Trouble ticket dashboard</a>
+	<a href="#">Work Order Dashborad</a>
+	<a href="#">BTS Service Maintenance Dashboard</a>
+	<a href="#">Sites Online & ofline</a>
+	<a href="#">Fuel Top-Up dashboard</a>
+	<a href="#">Login Dashboad</a>
+	<a href="#">Usage dashboard</a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Site</button></span>
+	<div class="dropdown-content">
+    <a href="#">Information List</a>
+	<a href="#">Reginal Map</a>
+	<a href="#">Status Map</a>
+	<a href="#">Techonology Map</a>
+	<a href="#">Import tools</a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Trouble Tickets</button></span>
+	<div class="dropdown-content">
+    <a href="#">My trouble tickets</a>
+	<a href="#">All new trouble tickes</a>
+	<a href="#">All open trouble tickets</a>
+	<a href="#">All resolved troubled tickets</a>
+	<a href="#">All Closed troubled tickets</a>
+	<a href="#">All troubled tickets</a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Work Order</button></span>
+	<div class="dropdown-content">
+    <a href="#">My work orders</a>
+	<a href="#">All new work orders</a>
+	<a href="#">All open work orders</a>
+	<a href="#">All resolved work orders</a>
+	<a href="#">All closed work orders</a>
+	<a href="#">All work orders</a>
+	<a href="#">[M] Active WO by Status (Map)</a>
+	<a href="#">[M] Active WO by Dispatch Duration (Map)</a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Maintenance</button></span>
+	<div class="dropdown-content">
+    <a href="#">BTS Service Maintenance</a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Fuel Top-Up</button></span>
+	<div class="dropdown-content">
+    <a href="#">All overdue</a>
+	<a href="#">All planned today</a>
+	<a href="#">All planned this week</a>
+	<a href="#">All planned this month</a>
+	<a href="#">All pending</a>
+	<a href="#">All redo</a>
+	<a href="#">All completed</a>
+	<a href="#">All approved</a>
+	<a href="#">[M] Fuel Top-up Repots with Fuel Theft</a>
+	<a href="#">[M] Sites with Defective Densets</a>
+	<a href="#">[R] Fuel Top-up Delayed Reports</a>
+	<a href="#">[R] Fuel Top-Up Reports by Status</a>
+	<a href="#">[R] Top Sites with Refueling</a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Location Tracking</button></span>
+	<div class="dropdown-content">
+    <a href="#"></a>
+	</div>
+	</div>
+	
+	<div class="dropdown">
+	<span><button class="dropbtn">Spares</button></span>
+	<div class="dropdown-content">
+    <a href="#">Spares Request</a>
+	<a href="#">Spares Category</a>
+	<a href="#">Spares Catalog</a>
+	<a href="#">Warehouse</a>
+	</div>
+	</div>
+	
+		<div class="dropdown">
+	<span><button class="dropbtn">Admin</button></span>
+	<div class="dropdown-content">
+    <a href="#">Org Structure</a>
+	</div>
+	</div>
+
+  </div>
+
+    
+ </body>
+</html>
